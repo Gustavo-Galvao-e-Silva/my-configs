@@ -6,6 +6,7 @@ alias python='python3.14'
 alias pip='pip3'
 
 export ZSH="$HOME/.oh-my-zsh"
+
 ZSH_THEME="robbyrussell"
 
 autoload -Uz compinit
@@ -71,8 +72,11 @@ py-setup() {
     if [ ! -d ".venv" ]; then
         uv venv
     fi
-    
+
     source .venv/bin/activate
+
+    echo "Adding black..."
+    uv add --dev black
 
     echo "# $project_name" > README.md
     echo "Started on $(date +'%Y-%m-%d')" >> README.md
