@@ -1,8 +1,18 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "window.commandCenter": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": false,
+  "zenMode.hideActivityBar": true,
+  "zenMode.showTabs": "none",
   "workbench.colorTheme": "Nord",
   "C_Cpp.default.compilerPath": "/opt/homebrew/opt/llvm/bin/clang++",
   "extensions.ignoreRecommendations": true,
@@ -13,14 +23,13 @@
     "markdown": false,
     "scminput": false,
     "python": true,
-    "json": true
+    "json": true,
   },
   "git.autofetch": true,
   "notebook.editorOptionsCustomizations": {
-    "editor.insertSpaces": false
+    "editor.insertSpaces": false,
   },
   "github.copilot.nextEditSuggestions.enabled": false,
-
   "vim.vimrc.enable": true,
   "vim.vimrc.path": "~/.vscvimrc",
   "vim.useSystemClipboard": true,
@@ -30,8 +39,7 @@
   "vim.cursorStylePerMode.normal": "block",
   "vim.handleKeys": {
     "<C-p>": false,
-    "<C-n>": false
+    "<C-n>": false,
   },
-  "editor.lineNumbers": "relative",
-  "editor.fontSize": 14
+  "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
 }
