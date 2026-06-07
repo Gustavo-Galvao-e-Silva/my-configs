@@ -18,7 +18,7 @@ When done with Vim by copying the `.vimrc` file, run inside the Vim command line
 :PlugInstall
 ```
 
-After all plugins are installed, add any Coc iextensions with the Vim command:
+After all plugins are installed, add any Coc extensions with the Vim command:
 
 ```bash
 :CocInstall EXTENSION-NAME
